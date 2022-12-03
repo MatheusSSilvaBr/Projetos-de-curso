@@ -1,0 +1,27 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-image: url(../../img/backgroundLp.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  color: white;
+}
+
+.container1 {
+  background-color: #131212f1;
+  width: 450px;
+  height: auto;
+}
+
+.logo {
+  width: 300px;
+}
+
+.btnSend {
+  color: #ff0043;
+  border: 1px solid #ff0043;
+}

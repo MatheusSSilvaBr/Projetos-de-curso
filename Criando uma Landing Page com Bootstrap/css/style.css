@@ -1,0 +1,29 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-image: url(../../img/backgroundLp.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  color: white;
+}
+
+.container1 {
+  background-color: rgba(19, 18, 18, 0.9450980392);
+  width: 450px;
+  height: auto;
+}
+
+.logo {
+  width: 300px;
+}
+
+.btnSend {
+  color: #ff0043;
+  border: 1px solid #ff0043;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Titulo e logo-->
+    <link rel="shortcut icon" href="./img/FAVICON-SPACEX.png" />
+    <title>Rumo a marte - OnebitX</title>
+
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container px-4 container1 mt-1">
+      <!--Logo-->
+      <div class="text-center">
+        <img
+          class="img-fluid logo mb-2 mt-1"
+          src="./img/logoOneBitDark.png"
+          alt="Logo OneBitCode"
+        />
+      </div>
+
+      <!--Primeira Pergunta-->
+      <p>1- Qual o seu nome?</p>
+      <div class="input-group mb-3">
+        <span class="input-group-text">Primeiro Nome:</span>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Digite aqui"
+          aria-label="Username"
+        />
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text">Segundo Nome:</span>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Digite aqui"
+          aria-label="Password"
+        />
+      </div>
+
+      <!--Segunda Pergunta-->
+      <p>2- Qual o seu gênero?</p>
+      <div class="form-check">
+        <input class="form-check-input" name="genero" type="radio" id="homem" />
+        <label class="form-check-label" for="homem">Homem</label>
+      </div>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          name="genero"
+          type="radio"
+          id="mulher"
+        />
+        <label class="form-check-label" for="mulher">Mulher</label>
+      </div>
+      <div class="form-check mb-2">
+        <input
+          class="form-check-input"
+          name="genero"
+          type="radio"
+          id="indefinido"
+        />
+        <label class="form-check-label" for="indefinido"
+          >Prefiro não informar</label
+        >
+      </div>
+
+      <!--Terceira Pergunta-->
+      <p>3 - Marque os treinamentos que você fez:</p>
+      <div class="form-check form-switch">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          role="switch"
+          id="treinamentoBasico"
+        />
+        <label class="form-check-label" for="treinamentoBasico"
+          >Treinamento básico de astronauta</label
+        >
+      </div>
+      <div class="form-check form-switch">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          role="switch"
+          id="treinamentoFisico"
+        />
+        <label class="form-check-label" for="treinamentoFisico"
+          >Treinamento físico básico</label
+        >
+      </div>
+      <div class="form-check form-switch">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          role="switch"
+          id="treinamentoAvancado"
+        />
+        <label class="form-check-label" for="treinamentoAvancado"
+          >Treinamento avançado de astronauta</label
+        >
+      </div>
+      <div class="form-check form-switch mb-2">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          role="switch"
+          id="treinamentoIntenso"
+        />
+        <label class="form-check-label" for="treinamentoIntenso"
+          >Treinamento físico intenso</label
+        >
+      </div>
+
+      <!--Quarta Pergunta-->
+      <p>4- Quais são suas qualidades?</p>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          value=""
+          id="proativo"
+        />
+        <label class="form-check-label" for="proativo"> Proativo </label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          value=""
+          id="resistente"
+        />
+        <label class="form-check-label" for="resistente"> Resistente </label>
+      </div>
+
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          value=""
+          id="naoVomitoFacil"
+        />
+        <label class="form-check-label" for="naoVomitoFacil">
+          Não vomito fácil
+        </label>
+      </div>
+
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          value=""
+          id="naoTemoMarciano"
+        />
+        <label class="form-check-label" for="naoTemoMarciano">
+          Não temo marciano
+        </label>
+      </div>
+
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          value=""
+          id="jaViTodosOsStarWars"
+        />
+        <label class="form-check-label" for="jaViTodosOsStarWars">
+          Já vi todos os star wars
+        </label>
+      </div>
+      <!--Botao-->
+      <div class="text-center">
+        <button type="button" class="btn btn-outline-danger btnSend mb-2">
+          Submit
+        </button>
+      </div>
+    </div>
+    <!--Script-->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
